@@ -1,0 +1,17 @@
+env:
+  browser: true
+  es2021: true
+extends:
+  - standard-with-typescript
+parser: '@typescript-eslint/parser'
+plugins:
+  - '@typescript-eslint'
+root: true
+parserOptions:
+  project: true
+  tsconfigRootDir: __dirname
+  ecmaVersion: latest
+  sourceType: module
+  files: ['**/*.ts']
+  ignores: ['**/*.config.js']
+rules: {}

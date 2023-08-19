@@ -1,1 +1,3 @@
-import * as fs from 'fs';
+export function sum (a: number, b: number): number {
+  return a + b
+}
